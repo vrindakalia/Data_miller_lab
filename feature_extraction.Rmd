@@ -3,7 +3,7 @@ title: "Extraction parameters"
 output: html_document
 ---
 
-[apLCMS](http://web1.sph.emory.edu/apLCMS/)  
+[apLCMS](https://github.com/tianwei-yu/apLCMS)  
 [xMSanalyzer](https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/1471-2105-14-15)  
 
 **mz.min**: lower bound of mz window for feature matching  

@@ -6,21 +6,37 @@ navbar:
       - text: "Home"
         href: index.html
       - text: "Version control"
-        href: version_control.html
-      - text: "Project organization"    
-        href: project_organization.html
+        menu:
+         - text: "Getting started" 
+           href: version_control.html
+         - text: "Git workflow"
+           href: git_workflow.html
       - text: "Using R"
         menu:
+         - text: "But first"
+           href: pre_reqs.html
          - text: "Let's R 1"
            href: lets_r.html
          - text: "Let's R 2"
            href: lets_r_2.html
+      - text: "Metabolomics"
+        menu:
          - text: "Worm metabolomics 1"
            href: worm_metabolomics_1.html
          - text: "Worm metabolomics 2"
            href: worm_metabolomics_2.html
          - text: "Worm metabolomics 3"
-           href: worm_metabolomics_3.html  
+           href: worm_metabolomics_3.html 
+      - text: "Other resources"
+        menu:
+         - text: "Project organization"    
+           href: project_organization.html
+         - text: "Metabolomics data extraction"
+           href: feature_extraction.html
+         - text: "ggbiplot"
+           href: ggbiplot.html
+         - text: "Dimension reduction"
+           href: dim_red.html
       - text: "Files of interest"
         href: files.html
         

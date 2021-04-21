@@ -1,0 +1,16 @@
+---
+title: "files"
+---
+
+Here is a list of different R scripts and files that may be useful while navigating this website. 
+
+* [Using the rstudio ide](https://github.com/vrindakalia/Data_miller_lab/blob/master/cheatsheets/rstudio-ide.pdf)
+
+* [Using the rmarkdown ide](https://github.com/vrindakalia/Data_miller_lab/tree/master/cheatsheets/rmarkdown-2.0.pdf)  
+
+* [apLCMS manual](https://github.com/vrindakalia/Data_miller_lab/blob/master/manuals/apLCMS_manual.pdf)  
+
+* [xMSanalyzer manual](https://github.com/vrindakalia/Data_miller_lab/blob/master/manuals/xMSanalyzer_manual.pdf)  
+
+
+* [Some R code to get you started](https://github.com/vrindakalia/Data_miller_lab/tree/master/code)

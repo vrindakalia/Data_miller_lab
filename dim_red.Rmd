@@ -1,6 +1,5 @@
 ---
 title: "Dimension reduction"
-output: html_document
 bibliography: bib_dim_red.bib
 ---
 
@@ -20,7 +19,7 @@ Data dimensionality reduction approaches produce a manageable number of variable
 #### Principal components analysis (PCA)
 Principal components analysis is one of the most commonly used approaches for dimensionality reduction. The method uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of linearly uncorrelated variables called principal components. The first component explains the most variance in the data and each succeeding component has the highest variance possible under the constraint that it is orthogonal, i.e., independent, to the preceding components [@jolliffe_principal_2002]. The method does not reduce the number of variables, m variables produce m components. The analyst chooses the number of components to include in analyses based on some a priori defined criterion/a, e.g., looking at the scree plot, selecting components with eigenvalues above one, or selecting the number of components that explain a pre-specified proportion of the variance in the data, e.g., at least 75%. Since PCA forces orthogonality between components, it imposes a rigid structure [@liland_multivariate_2011]. The alternating least squares variant of PCA, independent component analysis, is more successful in dealing with this rigidity but has less compression in the first components [@comon_independent_1994]."   
 
-<img src = "/Users/vk2316/Documents/Miller_lab/Protocols and notes/Data_miller_lab/ppt_images/dim_red_visual.png", width="700", height="700", align = center>  
+<img src = "ppt_images/dim_red_visual.png" style="width:35%; border:2px solid; margin-right: 20px">  
 
 *Visual representation of dimension reduction using PCA, FA, and NMF.*   
 
