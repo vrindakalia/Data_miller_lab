@@ -1,0 +1,37 @@
+---
+title: "git workflow"
+output: html_document
+---
+
+For tutorials on  using github, visit the [Github guides](https://guides.github.com/) page.  
+
+### Working with a team of developers  
+
+To learn about the workflow when multiple people are working on the same project, visit [this](https://guides.github.com/introduction/flow/) guide which explains the benefit of branching and pulling changes made to a repo.  
+
+
+### Working with your future self in R and Rstudio    
+
+*  Create an Rproject for the data analysis project  
+
+Initialize a git repository for a directory that is an R Project directory through R Studio.
+
+1.  Open the Project.
+2.  Go to “Tools” -> “Version Control” -> “Project Setup”.
+3.  In the box for “Version control system”, choose “Git”.
+
+You only need to do this once per project, but you will need to do it for each project you want to keep under version control.  
+
+*  Create a repo on github with the same name  
+
+*  Add your local project as a remote branch to the github repo with the command   
+*git remote add origin git@github.com:username/repo_name.git*  
+
+*  Use the *git* tab in the environment pane to navigate to the "diff"erence in the two repositories  
+
+*   To update the master github repository:  
+    *  "stage" changes (translates to _git add ._ command in the shell)
+    *  "commit" changes with a message (note on what the changes made are, translates to git commit -m "") in the shell  
+    *  "push" the changes to the  github repository (translates to the _git push_ command in the shell)  
+
+

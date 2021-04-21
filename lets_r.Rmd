@@ -1,0 +1,79 @@
+---
+title: "Lets R"
+---
+
+#### Day 2 of data meetings 
+
+Last time we met,  
+
+*  We went through the metabolomics workflow and learned about how a feature table is created.  
+*  We installed tidyverse and had some luck loading other packages (Will move to R studio cloud to analyze metabolomics data)
+*  We spoke about project organization and the importance of following a consistent strategy to store all the files the are needed and generated during data analysis  
+*  We read about the importance of version control in [this paper by Jennifer Bryan](https://amstat.tandfonline.com/doi/full/10.1080/00031305.2017.1399928?journalCode=utas20#.XnExyJNKi_X)
+*  We installed git on our personal computers  
+    
+Today, we willlearn more about R.  
+
+*  We will spend an hour and half or so talking about R and using R studio.   
+    *  The set up and best practices in R  
+    *  Using base R  
+    *  The tidyverse universe  
+    *  Creating visuals using ggplot  
+    *  Create a function 
+    *  Working with R projects  
+    *  R markdown  
+
+
+*  We will link git to R studio and create a repository that will store R scripts we created today.
+
+
+*****************
+
+#### Some notes on R  
+
+**Assignment statements**  
+
+> *object_name <- value* 
+
+reads as: object name *gets* value  
+keyboard shortcut: (Alt -) Alt and minus sign  
+Object names must start with a letter. Can only contain letters, numbers, _ and .  
+
+**Functions**  
+
+The usual format for functions is: 
+
+> *function_name(arg1 = val1, arg2 = val2, ...)*  
+
+**Types of variables**  
+
+*chr*: character  
+*num*: numeric  
+*int*: integer  
+*dbl*: double  
+*dttm*: date and time  
+*lgl*: logical  
+*fctr*: factor  
+*date*: dates  
+
+**Comparisons**  
+
+greater than: >  
+less then: <  
+not equal: !=  
+equal: ==  
+
+**Missing values**  
+
+Missing values are coded as *NA*.  
+
+> missing values are "contagious"; almost any operation involving an unknown value will also be unknown. 
+
+**********************
+
+
+
+
+
+
+    

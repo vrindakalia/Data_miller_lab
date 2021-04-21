@@ -1,0 +1,29 @@
+name: "Metabolomics data analysis in R in the Miller Laboratory"
+output_dir: "."
+navbar:
+    title: "Miller lab data"
+    left:
+      - text: "Home"
+        href: index.html
+      - text: "Version control"
+        href: version_control.html
+      - text: "Project organization"    
+        href: project_organization.html
+      - text: "Using R"
+        menu:
+         - text: "Let's R 1"
+           href: lets_r.html
+         - text: "Let's R 2"
+           href: lets_r_2.html
+         - text: "Worm metabolomics 1"
+           href: worm_metabolomics_1.html
+         - text: "Worm metabolomics 2"
+           href: worm_metabolomics_2.html
+         - text: "Worm metabolomics 3"
+           href: worm_metabolomics_3.html  
+      - text: "Files of interest"
+        href: files.html
+        
+output:
+ html_document:
+   theme: cosmo

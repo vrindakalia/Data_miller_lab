@@ -1,0 +1,18 @@
+---
+title: 'Worm metabolomics 3'
+---
+
+So far, we have worked with the two files needed for metabolomics analysis - the map file and the feature table.  
+
+Last time, we:  
+
+*  wrangled the files to the appropriate format.  
+*  we merged the two files to determine the sample identity.  
+*  we created a PCA plot using the prcomp() function in base R and created a biplot using the ggbiplot() function.  
+
+Today, we will:  
+
+*  create github repo and upload the metabolomics file to github.  
+*  clean the feature table and create the appropriate format for analysis in metaboanalyst.  
+
+

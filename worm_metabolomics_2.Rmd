@@ -1,0 +1,19 @@
+---
+title: 'Worm metabolomics 2'
+---
+Last time, we learned about the two files that are used for metabolomics analysis in R: the feature table and the map file.   
+
+We learned how to read these files into R, and manipulated them to the right format for downstream analysis.  
+
+Today, we will continue working with metabolomics data in R.
+
+*  We will merge the feature table and map file.  
+
+*  We will run a PCA using the prcomp() function in base R.  
+
+*  We will use ggbiplot to create a biplot with PC1 and PC2.  
+
+*  We will begin maniplulating the feature table to meet formatting requirements for [MetaboAnalyst](https://www.metaboanalyst.ca/MetaboAnalyst/faces/home.xhtml).  
+
+*  Before we wrap up, we will create a github repository and link the R project we created last time to this repo and push our scripts to github. Next time, we will push these changes to github.  
+

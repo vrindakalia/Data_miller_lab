@@ -1,0 +1,33 @@
+---
+title: 'Overview: day 2'
+output: pdf_document
+---
+
+**The different types of objecs we worked with:**   
+
+*  vectors  
+
+*  dataframe: can contain columns of different classes  
+
+*  matrix: all columns must be of same class  
+
+*  will look at lists later (I dont have enough experience with them but are very powerful)  
+
+
+**The different functions we looked at:**
+
+*  runif()  
+
+*  rnorm()  
+
+*  lm()  
+
+*  summary()  
+
+*  plot()  
+
+*  used tidyverse pipes and grammar  
+
+*  ggplot()  
+
+*  fct_reorder()  

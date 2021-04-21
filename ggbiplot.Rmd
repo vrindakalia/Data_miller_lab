@@ -1,0 +1,27 @@
+---
+title: "ggbiplot"
+output: html_document
+---
+
+To install ggbiplot, try one of the following:  
+
+1.  Install from github: 
+
+```{r devtools, echo = T, eval = F}
+install.packages("devtools") # if you dont already have devtools installed
+devtools::install_github("vqv/ggbiplot", force = TRUE)
+
+### OR
+
+install.packages("remotes") # if remotes not already installed
+remotes::install_github("vqv/ggbiplot")
+```
+
+
+2.  Install source code, and run before calling function (ggbiplot specifically). Go to https://github.com/vqv/ggbiplot and download the zip file. Unzip the folder and save in a location (on local drive, not network) of your choice. When needed, source the appropriate R script, using the code: 
+
+```{r source, echo = T, eval=F}
+source("path_to_folder/ggbiplot-master/R/ggbiplot.R")
+```
+
+

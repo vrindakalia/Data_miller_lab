@@ -1,0 +1,56 @@
+---
+title: "Version  control"
+---
+
+*  Create a githib account  
+
+#### Git on your computer
+*  Download git: https://git-scm.com/downloads   
+
+*  Install git: https://www.computerhope.com/issues/ch001927.htm  
+
+*  Configure git:  
+
+On the bash (windows)  or terminal (macOS), type:  
+
+*git config --global user.name "enter username"*  
+*git config --global user.email "email used with gitub"*  
+
+#### Git in R through R project 
+*  Make sure Rstudio can find git  
+*  To activate git through Rstudio:  “RStudio” -> “Preferences” -> “Git/SVN”  
+*  Choose "Enable version control"   
+*  If just installed git, restart Rstudio  
+
+You can initialize a git repository for a directory that is an R Project directory through R Studio.
+
+1.  Open the Project.
+2.  Go to “Tools” -> “Version Control” -> “Project Setup”.
+3.  In the box for “Version control system”, choose “Git”.
+
+You only need to do this once per project, but you will need to do it for each project you want to keep under version control.
+
+#### Repo on github  
+
+1.  In GitHub, click on the “+” in the upper right corner (“Create new”).  
+2.  Choose “Create new repository”.  
+3.  Give your repository the same name as the local directory you’d like to connect it to. For example, if you want to connect it to a directory called “fars_analysis” on your computer, name the repository “fars_analysis”.  
+4.  Leave everything else as-is (unless you’d like to add a short description in the “Description” box). Click on “Create repository” at the bottom of the page.  
+
+#### Github recognizes Rstudio  
+1.  In RStudio, go to “RStudio” -> “Preferences” -> “Git / svn”. Choose to “Create RSA key”.  
+2.  Click on “View public key”. Copy what shows up.  
+3.  Go to your GitHub account and navigate to “Settings”. Click on “SSH and GPG keys”.   
+4.  Click on “New SSH key”. Name the key something like “RStudio” (you might want to include the device name if you’ll have SSH keys from RStudio on several computers). Paste in your public key in the “Key box”.  
+
+#### Connect the two repositories  
+1.  Open a shell and navigate to the directory you want to push. (You can open a shell from RStudio using the gear button in the Git window.)  
+2.  Add the GitHub repository as a remote branch with the following command (this gives an example for adding a GitHub repository named “daf16_metabolomics” in my GitHub account, “vrindakalia”):
+
+*git remote add origin git@github.com:vrindakalia/daf16_metabolomics.git*    
+
+3.  Push the contents of the local repository to the GitHub repository.   
+
+*git push -u origin master*  
+
+

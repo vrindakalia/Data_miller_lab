@@ -1,0 +1,74 @@
+---
+title: "Data analysis in the Miller Lab"
+output: html_document
+---
+
+#### Considerations  
+Before we get into the details of the metabolomic workflow and data analysis, please do the following:  
+
+*  Create a github account https://github.com/. 
+    +  If you have time and are interested, you can read these tutorials about the github workflow but we will definitely talk about it when we meet. https://guides.github.com/        
+    
+    
+*  Download and install R and RStudio (if you havent already)  
+*  Install the following packages, use the code below. Let me know if you have trouble (its likely, some of these packages are finicky) and we can figure out how to fix issues before we meet so we are good to go.    
+
+```{r packages, echo = T, eval=F}
+###
+# Data wrangling and plotting
+###
+install.packages("tidyverse", dependencies = T)
+library(tidyverse)
+
+
+###
+# METABOLOMICS
+###
+
+install.packages("devtools")
+library(devtools)
+
+source("https://bioconductor.org/biocLite.R")
+
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install()
+
+#BiocManager::install("xcms")
+#library(xcms)
+
+#BiocManager::install("mzR")
+#library(mzR)
+
+#install.packages("rgl")
+#library(rgl)
+
+install_github("yufree/apLCMS")
+library(apLCMS)
+
+BiocManager::install("sva")
+library(sva)
+
+## Need GO.db for WGCNA
+
+BiocManager::install("GO.db")
+library(GO.db)
+
+install.packages("WGCNA")
+
+# Packages needed: apLCMS, xcms, mzR, sva
+
+install_github("yufree/xMSanalyzer")
+library(xMSanalyzer)
+
+```
+
+*  Read this paper on version control (setting the stage for using github). 
+Bryan, Jennifer. "Excuse me, do you have a moment to talk about version control?." The American Statistician 72.1 (2018): 20-27.  
+
+**Let me know if you have any questions!**
+
+
+
+

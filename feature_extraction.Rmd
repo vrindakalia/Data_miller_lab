@@ -1,0 +1,22 @@
+---
+title: "Extraction parameters"
+output: html_document
+---
+
+[apLCMS](http://web1.sph.emory.edu/apLCMS/)  
+[xMSanalyzer](https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/1471-2105-14-15)  
+
+**mz.min**: lower bound of mz window for feature matching  
+
+**mz.max**: upper bound of mz window for feature matching  
+
+**NumPres.All.Samples**: number of samples including replicates with non-missing values  
+
+**NumPres.Biological.Sample**: number of "biological samples" with non-missing values in at least 2 out of 3 replicates   
+
+**median_CV**: median coefficient of variation (%) within technical replicates  
+
+**Qscore**: Quality score, defined as the ratio of the percentage of biological samples for which > 50% of technical replicates have a signal to the % median CV; A higher Qscore means the feature is more quantitatively reproducible within technical replicates is detected   
+
+**Max.Intensity**: Maximum intensity of the mz across all samples  
+

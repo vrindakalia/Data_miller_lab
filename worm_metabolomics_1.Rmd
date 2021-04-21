@@ -1,0 +1,18 @@
+---
+title: "Worm metabolomics 1"
+---
+
+We have been developing our skills in R and learning about the tidyverse universe. Today we will spend time with  metabolomics data analysis using R. I hope we  can:  
+
+*  Import the two files needed for metabolomics analysis  
+
+    *  the feature table
+    *  the map file  
+    
+*  We will look at what information is stored in these files.   
+
+*  We will manipultate the feature table and create a PCA plot with the data generated for daf-16 and wildtype worms run on a HRMS in the Clinical biomarkers lab at Emory University.  
+
+*  We will create an R project with the metabolomics folder and use the git workflow to push the files and changes we make to the github repository with the same name (please create  a private repo).    
+
+
