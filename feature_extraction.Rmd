@@ -1,6 +1,5 @@
 ---
 title: "Extraction parameters"
-output: html_document
 ---
 
 [apLCMS](https://github.com/tianwei-yu/apLCMS)  

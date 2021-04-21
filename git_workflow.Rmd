@@ -1,6 +1,5 @@
 ---
 title: "git workflow"
-output: html_document
 ---
 
 For tutorials on  using github, visit the [Github guides](https://guides.github.com/) page.  

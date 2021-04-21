@@ -1,6 +1,5 @@
 ---
 title: "ggbiplot"
-output: html_document
 ---
 
 To install ggbiplot, try one of the following:  
