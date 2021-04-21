@@ -13,4 +13,6 @@ Here is a list of different R scripts and files that may be useful while navigat
 * [xMSanalyzer manual](https://github.com/vrindakalia/Data_miller_lab/blob/master/manuals/xMSanalyzer_manual.pdf)  
 
 
-* [Some R code to get you started](https://github.com/vrindakalia/Data_miller_lab/tree/master/code)
+* [Some R code to get you started](https://github.com/vrindakalia/Data_miller_lab/tree/master/code)  
+
+* [The example used to describe worm metabolomics data](https://github.com/vrindakalia/metabolomics_daf16_n2)
